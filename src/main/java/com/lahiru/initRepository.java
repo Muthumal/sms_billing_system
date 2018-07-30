@@ -1,7 +1,7 @@
 package com.lahiru;
 
-public class DummyAccountStore implements AcountStore {
-    @Override
+public class initRepository {
+
     public Repository buildRepository() {
         Repository repository=new InMemoryRepository();
         repository.add(716484641,new PersonalAccount());
